@@ -1,5 +1,5 @@
-There are two batch scripts for the canu assembly here since I tried two different assembly options. 
-The first file: 01_canu_assembly.sh, contains default values for most options
-The second file: 02_canu_assembly, uses the options recommended for highly heterozygous genomes. 
-The third file: 03_canu_assembly uses default options using a smaller genome size
+There are three batch scripts for the canu assembly here since I tried two different assembly options and two different genome sizes. 
+The first file: 01_canu_assembly.sh, contains default parameters and the genome size estimated by Jellyfish using k-mer counts.
+The second file: 02_canu_assembly, uses the options recommended for highly heterozygous genomes and the genome size estimated by Jellyfish using k-mer counts. 
+The third file: 03_canu_assembly uses default parameters and a smaller genome size, based on the scaffolds size found on NCBI.
 
