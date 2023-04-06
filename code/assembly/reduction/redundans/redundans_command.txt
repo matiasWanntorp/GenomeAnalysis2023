@@ -1,0 +1,3 @@
+#Command used to for reduction of draft assembly
+
+redundans.py -v -f PATH/TO/DRAFT/ASSEMBLY -o PATH/TO/OUTPUT --noscaffolding --nogapclosing
