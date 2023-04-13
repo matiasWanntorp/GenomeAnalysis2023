@@ -1,0 +1,10 @@
+Pilon not reading the entire contigs
+
+Length of contigs for in contigs.reduced.fa.fai vs Pilon standard output
+
+	        Redund	Pilon	 
+tig00002572     632955	222015
+tig00002577     159572	57600
+tig00000931     5362	1529
+
+Keeps reading a third of each contig?

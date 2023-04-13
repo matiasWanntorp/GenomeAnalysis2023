@@ -1,0 +1,14 @@
+Usage: java -jar $PILON_HOME/pilon.jar other-options...
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+Genome: /home/matia/GenomeAnalysis2023/analysis/genome_assembly/assembly_canu/03_canu_assembly/canu_assembly.contigs.fasta
+Exception in thread "main" java.nio.BufferOverflowException
+	at java.nio.HeapByteBuffer.put(HeapByteBuffer.java:206)
+	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSubsequenceAt(AbstractIndexedFastaSequenceFile.java:222)
+	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSubsequenceAt(IndexedFastaSequenceFile.java:49)
+	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSequence(AbstractIndexedFastaSequenceFile.java:162)
+	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSequence(IndexedFastaSequenceFile.java:49)
+	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.nextSequence(AbstractIndexedFastaSequenceFile.java:139)
+	at htsjdk.samtools.reference.IndexedFastaSequenceFile.nextSequence(IndexedFastaSequenceFile.java:49)
+	at org.broadinstitute.pilon.GenomeFile.<init>(GenomeFile.scala:39)
+	at org.broadinstitute.pilon.Pilon$.main(Pilon.scala:108)
+	at org.broadinstitute.pilon.Pilon.main(Pilon.scala)
