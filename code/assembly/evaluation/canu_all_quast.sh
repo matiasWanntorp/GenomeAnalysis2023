@@ -15,7 +15,7 @@ module load quast/5.0.2
 
 #variables
 INPUT_01="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/assembly_canu/03_canu_assembly/canu_assembly.contigs.fasta" 
-OUPUT_01="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/evaluation_quast/canu_quast_evaluation/canu_raw_quast"
+OUTPUT_01="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/evaluation_quast/canu_quast_evaluation/canu_raw_quast"
 
 INPUT_02="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/reduction_redundans/CANU_reduced/contigs.reduced.fa" 
 OUTPUT_02="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/evaluation_quast/canu_quast_evaluation/canu_redundans_quast"
