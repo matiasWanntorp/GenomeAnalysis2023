@@ -17,7 +17,7 @@ module load BEDTools
 
 #variables
 OUTPUT="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/aligningment_bwa/test_alignment_bwa"
-REF="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/reduction_redundans/CANU_reduced/contigs.reduced.fa"
+REF="/home/matia/GenomeAnalysis2023/analysis/genome_assembly/polishing_pilon/polishing_pilon/pilon.fasta"
 INPUT1="/home/matia/GenomeAnalysis2023/data/DNA_raw_data/illumina_data/illumina_scaffold_06.1P.fastq.gz"
 INPUT2="/home/matia/GenomeAnalysis2023/data/DNA_raw_data/illumina_data/illumina_scaffold_06.2P.fastq.gz"
 
@@ -32,6 +32,3 @@ bwa mem -P $REF $INPUT1 $INPUT2 > aln-pe.sam
 #convert to bam, sort and index
 samtools sort aln-pe.sam -o aln-pe.sorted.bam
 samtools index aln-pe.sorted.bam
-
-# convert to bed
-bedtools bamtobed -i aln-pe.sorted.bam

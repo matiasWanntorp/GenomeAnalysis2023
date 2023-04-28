@@ -1,0 +1,12 @@
+Error processing GFF file (line 31 of file /home/matia/GenomeAnalysis2023/analysis/genome_annotation/annotation_BRAKER_canu/braker/braker.gtf):
+  Failure parsing GFF attribute line
+  [Exception type: ValueError, raised in features.py:198]
+Error processing GFF file (line 31 of file /home/matia/GenomeAnalysis2023/analysis/genome_annotation/annotation_BRAKER_canu/braker/braker.gtf):
+  Failure parsing GFF attribute line
+  [Exception type: ValueError, raised in features.py:198]
+Error processing GFF file (line 31 of file /home/matia/GenomeAnalysis2023/analysis/genome_annotation/annotation_BRAKER_canu/braker/braker.gtf):
+  Failure parsing GFF attribute line
+  [Exception type: ValueError, raised in features.py:198]
+Error processing GFF file (line 31 of file /home/matia/GenomeAnalysis2023/analysis/genome_annotation/annotation_BRAKER_canu/braker/braker.gtf):
+  Failure parsing GFF attribute line
+  [Exception type: ValueError, raised in features.py:198]
