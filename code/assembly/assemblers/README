@@ -1,5 +1,0 @@
-There are two batch scripts for the canu assembly here since I tried two different assembly options. 
-The first file: 01_canu_assembly.sh, contains default values for most options
-The second file: 02_canu_assembly, uses the options recommended for highly heterozygous genomes. 
-The third file: 03_canu_assembly uses default options using a smaller genome size
-
